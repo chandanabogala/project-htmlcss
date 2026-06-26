@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Practice</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="page-header">
+    <h1>Flexbox Practice</h1>
+    <p>Examples for tasks 1–20 using Flexbox.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Task 1: 5 Boxes in a Row</h2>
+      <div class="row row-equal gap-20">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Task 2: Navigation Bar</h2>
+      <nav class="nav-bar">
+        <div class="logo">Logo</div>
+        <div class="nav-menu">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </div>
+      </nav>
+    </section>
+
+    <section>
+      <h2>Task 3: Three Cards</h2>
+      <div class="row gap-20 cards-row">
+        <article class="card">
+          <img class="card-image" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="Card One Image">
+          <h3>Card One</h3>
+          <p>This card includes an image, title, description, and button.</p>
+          <button>Learn More</button>
+        </article>
+        <article class="card">
+          <img class="card-image" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Card Two Image">
+          <h3>Card Two</h3>
+          <p>This card includes an image, title, description, and button.</p>
+          <button>Learn More</button>
+        </article>
+        <article class="card">
+          <img class="card-image" src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80" alt="Card Three Image">
+          <h3>Card Three</h3>
+          <p>This card includes an image, title, description, and button.</p>
+          <button>Learn More</button>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Task 4: Horizontal Gallery</h2>
+      <div class="row gap-20 gallery-row">
+        <div class="gallery-box gallery-box-1"></div>
+        <div class="gallery-box gallery-box-2"></div>
+        <div class="gallery-box gallery-box-3"></div>
+        <div class="gallery-box gallery-box-4"></div>
+        <div class="gallery-box gallery-box-5"></div>
+        <div class="gallery-box gallery-box-6"></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Task 5: Pricing Section</h2>
+      <div class="row gap-20 pricing-row">
+        <div class="pricing-card">
+          <h3>Basic</h3>
+          <p>$9 / month</p>
+          <ul>
+            <li>Basic support</li>
+            <li>1 project</li>
+          </ul>
+          <button>Select</button>
+        </div>
+        <div class="pricing-card popular">
+          <h3>Standard</h3>
+          <p>$19 / month</p>
+          <ul>
+            <li>Priority support</li>
+            <li>5 projects</li>
+          </ul>
+          <button>Select</button>
+        </div>
+        <div class="pricing-card">
+          <h3>Premium</h3>
+          <p>$39 / month</p>
+          <ul>
+            <li>Unlimited projects</li>
+            <li>Advanced tools</li>
+          </ul>
+          <button>Select</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Task 6: Vertical Boxes</h2>
+      <div class="column gap-15 vertical-boxes">
+        <div class="box">One</div>
+        <div class="box">Two</div>
+        <div class="box">Three</div>
+        <div class="box">Four</div>
+        <div class="box">Five</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Task 7: Two Columns Layout</h2>
+      <div class="row gap-20 two-column-layout">
+        <aside class="panel side-panel">
+          <h3>Menu</h3>
+          <ul>
+            <li>Dashboard</li>
+            <li>Reports</li>
+            <li>Settings</li>
+          </ul>
+        </aside>
+        <section class="panel main-panel">
+          <h3>Main Content</h3>
+          <p>This section sits next to the menu using Flexbox.</p>
+        </section>
+      </div>
+    </section>
+
+    <section>
+      <h2>Task 8: Profile Section</h2>
+      <div class="profile-card">
+        <div class="profile-image"></div>
+        <h3>Alex Parker</h3>
+        <p class="role">Product Designer</p>
+        <p>This profile uses a vertical arrangement with Flexbox.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Task 9: justify-content: center</h2>
+      <div class="row justify-center box-row">
+        <div class="small-box">1</div>
+        <div class="small-box">2</div>
+        <div class="small-box">3</div>
+        <div class="small-box">4</div>
+        <div class="small-box">5</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Task 10: justify-content: space-between</h2>
+      <div class="row justify-space-between box-row">
+        <div class="small-box">1</div>
+        <div class="small-box">2</div>
+        <div class="small-box">3</div>
+        <div class="small-box">4</div>
+        <div class="small-box">5</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Task 11: justify-content Variations</h2>
+      <div class="justify-examples">
+        <div class="justify-card">
+          <h4>flex-start</h4>
+          <div class="row justify-flex-start box-row"><span class="small-box">A</span><span class="small-box">B</span><span class="small-box">C</span></div>
+        </div>
+        <div class="justify-card">
+          <h4>flex-end</h4>
+          <div class="row justify-flex-end box-row"><span class="small-box">A</span><span class="small-box">B</span><span class="small-box">C</span></div>
+        </div>
+        <div class="justify-card">
+          <h4>center</h4>
+          <div class="row justify-center box-row"><span class="small-box">A</span><span class="small-box">B</span><span class="small-box">C</span></div>
+        </div>
+        <div class="justify-card">
+          <h4>space-between</h4>
+          <div class="row justify-space-between box-row"><span class="small-box">A</span><span class="small-box">B</span><span class="small-box">C</span></div>
+        </div>
+        <div class="justify-card">
+          <h4>space-around</h4>
+          <div class="row justify-space-around box-row"><span class="small-box">A</span><span class="small-box">B</span><span class="small-box">C</span></div>
+        </div>
+        <div class="justify-card">
+          <h4>space-evenly</h4>
+          <div class="row justify-space-evenly box-row"><span class="small-box">A</span><span class="small-box">B</span><span class="small-box">C</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Task 12: Center Box in 300px Container</h2>
+      <div class="center-container">
+        <div class="center-box">Centered</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Task 13: Align Items Variations</h2>
+      <div class="align-examples">
+        <div class="align-card">
+          <h4>stretch</h4>
+          <div class="align-row align-stretch">
+            <div class="tall-box">100px</div>
+            <div class="tall-box taller">150px</div>
+            <div class="tall-box">80px</div>
+            <div class="tall-box tallest">200px</div>
+          </div>
+        </div>
+        <div class="align-card">
+          <h4>center</h4>
+          <div class="align-row align-center">
+            <div class="tall-box">100px</div>
+            <div class="tall-box taller">150px</div>
+            <div class="tall-box">80px</div>
+            <div class="tall-box tallest">200px</div>
+          </div>
+        </div>
+        <div class="align-card">
+          <h4>flex-start</h4>
+          <div class="align-row align-start">
+            <div class="tall-box">100px</div>
+            <div class="tall-box taller">150px</div>
+            <div class="tall-box">80px</div>
+            <div class="tall-box tallest">200px</div>
+          </div>
+        </div>
+        <div class="align-card">
+          <h4>flex-end</h4>
+          <div class="align-row align-end">
+            <div class="tall-box">100px</div>
+            <div class="tall-box taller">150px</div>
+            <div class="tall-box">80px</div>
+            <div class="tall-box tallest">200px</div>
+          </div>
+        </div>
+        <div class="align-card">
+          <h4>baseline</h4>
+          <div class="align-row align-baseline">
+            <div class="tall-box">100px</div>
+            <div class="tall-box taller">150px</div>
+            <div class="tall-box">80px</div>
+            <div class="tall-box tallest">200px</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Task 14: Centered Login Page</h2>
+      <div class="login-page">
+        <div class="login-card">
+          <h3>Sign In</h3>
+          <label>Email</label>
+          <input type="email" placeholder="you@example.com">
+          <label>Password</label>
+          <input type="password" placeholder="••••••••">
+          <button>Login</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Task 15: 12 Boxes with Wrap</h2>
+      <div class="wrap-row gap-20 wrap-boxes">
+        <div class="fixed-box">1</div>
+        <div class="fixed-box">2</div>
+        <div class="fixed-box">3</div>
+        <div class="fixed-box">4</div>
+        <div class="fixed-box">5</div>
+        <div class="fixed-box">6</div>
+        <div class="fixed-box">7</div>
+        <div class="fixed-box">8</div>
+        <div class="fixed-box">9</div>
+        <div class="fixed-box">10</div>
+        <div class="fixed-box">11</div>
+        <div class="fixed-box">12</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Task 16: Product Gallery</h2>
+      <div class="wrap-row gap-20 product-gallery">
+        <div class="product-card"><img src="https://picsum.photos/seed/product1/280/180" alt="Product 1"><span>Product 1</span></div>
+        <div class="product-card"><img src="https://picsum.photos/seed/product2/280/180" alt="Product 2"><span>Product 2</span></div>
+        <div class="product-card"><img src="https://picsum.photos/seed/product3/280/180" alt="Product 3"><span>Product 3</span></div>
+        <div class="product-card"><img src="https://picsum.photos/seed/product4/280/180" alt="Product 4"><span>Product 4</span></div>
+        <div class="product-card"><img src="https://picsum.photos/seed/product5/280/180" alt="Product 5"><span>Product 5</span></div>
+        <div class="product-card"><img src="https://picsum.photos/seed/product6/280/180" alt="Product 6"><span>Product 6</span></div>
+        <div class="product-card"><img src="https://picsum.photos/seed/product7/280/180" alt="Product 7"><span>Product 7</span></div>
+        <div class="product-card"><img src="https://picsum.photos/seed/product8/280/180" alt="Product 8"><span>Product 8</span></div>
+        <div class="product-card"><img src="https://picsum.photos/seed/product9/280/180" alt="Product 9"><span>Product 9</span></div>
+        <div class="product-card"><img src="https://picsum.photos/seed/product10/280/180" alt="Product 10"><span>Product 10</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Task 17: Photo Thumbnails</h2>
+      <div class="wrap-row gap-15 thumbnails-row">
+        <img class="thumbnail" src="https://picsum.photos/seed/1/120/120" alt="Thumbnail 1">
+        <img class="thumbnail" src="https://picsum.photos/seed/2/120/120" alt="Thumbnail 2">
+        <img class="thumbnail" src="https://picsum.photos/seed/3/120/120" alt="Thumbnail 3">
+        <img class="thumbnail" src="https://picsum.photos/seed/4/120/120" alt="Thumbnail 4">
+        <img class="thumbnail" src="https://picsum.photos/seed/5/120/120" alt="Thumbnail 5">
+        <img class="thumbnail" src="https://picsum.photos/seed/6/120/120" alt="Thumbnail 6">
+        <img class="thumbnail" src="https://picsum.photos/seed/7/120/120" alt="Thumbnail 7">
+        <img class="thumbnail" src="https://picsum.photos/seed/8/120/120" alt="Thumbnail 8">
+        <img class="thumbnail" src="https://picsum.photos/seed/9/120/120" alt="Thumbnail 9">
+        <img class="thumbnail" src="https://picsum.photos/seed/10/120/120" alt="Thumbnail 10">
+        <img class="thumbnail" src="https://picsum.photos/seed/11/120/120" alt="Thumbnail 11">
+        <img class="thumbnail" src="https://picsum.photos/seed/12/120/120" alt="Thumbnail 12">
+        <img class="thumbnail" src="https://picsum.photos/seed/13/120/120" alt="Thumbnail 13">
+        <img class="thumbnail" src="https://picsum.photos/seed/14/120/120" alt="Thumbnail 14">
+        <img class="thumbnail" src="https://picsum.photos/seed/15/120/120" alt="Thumbnail 15">
+      </div>
+    </section>
+
+    <section>
+      <h2>Task 18: Flex Grow Differences</h2>
+      <div class="row gap-20 flex-grow-row">
+        <div class="grow-box grow-1">flex: 1</div>
+        <div class="grow-box grow-2">flex: 2</div>
+        <div class="grow-box grow-3">flex: 3</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Task 19: Flex Basis Columns</h2>
+      <div class="row gap-20 basis-row">
+        <div class="basis-box basis-100">100px</div>
+        <div class="basis-box basis-200">200px</div>
+        <div class="basis-box basis-300">300px</div>
+        <div class="basis-box basis-auto">auto</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Task 20: Dashboard Layout</h2>
+      <div class="dashboard">
+        <header class="dashboard-header">Dashboard Header</header>
+        <div class="dashboard-content">
+          <aside class="dashboard-sidebar">
+            <h3>Sidebar</h3>
+            <nav>
+              <a href="#">Overview</a>
+              <a href="#">Analytics</a>
+              <a href="#">Messages</a>
+              <a href="#">Settings</a>
+            </nav>
+          </aside>
+          <main class="dashboard-main">
+            <section class="dashboard-cards">
+              <div class="dashboard-card">
+                <img src="https://picsum.photos/seed/dashboard1/320/180" alt="Dashboard card 1">
+                <span>Card 1</span>
+              </div>
+              <div class="dashboard-card">
+                <img src="https://picsum.photos/seed/dashboard2/320/180" alt="Dashboard card 2">
+                <span>Card 2</span>
+              </div>
+              <div class="dashboard-card">
+                <img src="https://picsum.photos/seed/dashboard3/320/180" alt="Dashboard card 3">
+                <span>Card 3</span>
+              </div>
+              <div class="dashboard-card">
+                <img src="https://picsum.photos/seed/dashboard4/320/180" alt="Dashboard card 4">
+                <span>Card 4</span>
+              </div>
+            </section>
+            <section class="dashboard-table">
+              <h4>Recent Activity</h4>
+              <div class="table-row header-row">
+                <span>Task</span><span>Status</span><span>Owner</span>
+              </div>
+              <div class="table-row"><span>Launch update</span><span>In progress</span><span>Kim</span></div>
+              <div class="table-row"><span>Design review</span><span>Done</span><span>Lee</span></div>
+              <div class="table-row"><span>Marketing plan</span><span>Pending</span><span>Sam</span></div>
+            </section>
+          </main>
+        </div>
+        <footer class="dashboard-footer">Dashboard Footer</footer>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
